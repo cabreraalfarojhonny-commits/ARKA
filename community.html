@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARKA — Community</title>
+  <link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#0b1226">
+  <link rel="icon" href="images/icon-192.png"><link rel="stylesheet" href="styles/styles_v2.css">
+</head>
+<body>
+
+<header class="site">
+  <a href="index.html" class="brand"><img src="images/arka-logo.png" alt="ARKA logo"><strong>ARKA</strong></a>
+  <nav class="links">
+    <a href="design.html">3D Designer</a>
+    <a href="learn.html">Learn</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="community.html">Community</a>
+    <a href="login.html">Login</a>
+    <a href="register.html">Register</a>
+  </nav>
+</header>
+
+<div class="container">
+  <h1>Local Community</h1>
+  <p class="small muted">Save designs in your browser and share them as JSON files.</p>
+  <div class="card grid2">
+    <label>Design Name <input id="dname" placeholder="My South Pole Outpost"></label>
+    <button class="btn" id="save">Save</button>
+  </div>
+  <div class="card">
+    <h3>Examples + My Designs</h3>
+    <ul id="list" class="list"></ul>
+  </div>
+</div>
+<footer class="site"><small>© 2025 ARKA — Moon-to-Mars Habitat Lab. Educational prototype. PWA enabled.</small></footer>
+<script src="js/community.js"></script>
+</body>
+</html>

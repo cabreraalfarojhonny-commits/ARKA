@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARKA — Space Gallery</title>
+  <link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#0b1226">
+  <link rel="icon" href="images/icon-192.png"><link rel="stylesheet" href="styles/styles_v2.css">
+</head>
+<body>
+
+<header class="site">
+  <a href="index.html" class="brand"><img src="images/arka-logo.png" alt="ARKA logo"><strong>ARKA</strong></a>
+  <nav class="links">
+    <a href="design.html">3D Designer</a>
+    <a href="learn.html">Learn</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="community.html">Community</a>
+    <a href="login.html">Login</a>
+    <a href="register.html">Register</a>
+  </nav>
+</header>
+
+<div class="container">
+  <h1>Space Gallery</h1>
+  <div class="card grid2">
+    <label class="btn">Add Local Images <input type="file" id="imgInput" accept="image/*" multiple style="display:none"></label>
+    <small class="muted">Local images are not uploaded; they are just shown in your browser.</small>
+  </div>
+  <div id="gallery" class="gallery"></div>
+</div>
+<footer class="site"><small>© 2025 ARKA — Moon-to-Mars Habitat Lab. Educational prototype. PWA enabled.</small></footer>
+<script src="js/gallery.js"></script>
+</body>
+</html>

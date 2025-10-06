@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARKA — Moon-to-Mars Habitat Lab</title>
+  <meta name="description" content="ARKA: Learn from NASA data, design modular habitats, and share concepts — PWA for International Space Apps Challenge Huánuco.">
+  <link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#0b1226">
+  <link rel="icon" href="images/icon-192.png"><link rel="apple-touch-icon" href="images/icon-512.png">
+  <link rel="stylesheet" href="styles/styles_v2.css">
+</head>
+<body>
+
+<header class="site">
+  <a href="index.html" class="brand"><img src="images/arka-logo.png" alt="ARKA logo"><strong>ARKA</strong></a>
+  <nav class="links">
+    <a href="design.html">3D Designer</a>
+    <a href="learn.html">Learn</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="community.html">Community</a>
+    <a href="login.html">Login</a>
+    <a href="register.html">Register</a>
+  </nav>
+</header>
+<div class="container">
+  <section class="hero">
+    <canvas id="starfield" aria-hidden="true"></canvas>
+    <canvas id="planets3d" aria-hidden="true"></canvas>
+    <div class="center">
+      <img class="logo floating" src="images/arka-logo.png" alt="ARKA logo">
+      <div class="cta"><a href="#menu">✨ Start Designing →</a></div>
+    </div>
+  </section>
+
+  <!-- 🔹 NUEVA SECCIÓN: MISIÓN, VISIÓN Y QUIÉNES SOMOS 🔹 -->
+  <section class="info-section">
+    <div class="info-left">
+      <h2>Vision</h2>
+      <p>To become a global reference in space education and digital innovation. 
+        We envision a world where every person, regardless of borders, can access the universe’s mysteries, 
+        create their own designs, and contribute to humanity’s great journey to the stars.</p>
+
+      <h2>Mission</h2>
+      <p>To inspire and educate future generations by bringing the wonders of space closer to Earth. 
+        We strive to transform knowledge into an interactive and dynamic experience, encouraging exploration, 
+        innovation, and collaboration among space enthusiasts worldwide</p>
+    </div>
+
+    <div class="info-right">
+      <h2>Who we are</h2>
+      <p>ARKA is a space innovation project designed to inspire and connect people with the 
+        infinite universe. We are a digital platform that combines science, creativity, and 
+        technology to allow users to explore, learn, and interact with space in new and exciting 
+        ways. Our mission is to make space knowledge accessible to everyone, empowering dreamers, 
+        students, and visionaries to design the future.</p>
+    </div>
+  </section>
+
+  <section id="menu" style="padding-top:18px">
+    <div class="grid3">
+      <a class="card btn" href="design.html">Open 3D Designer</a>
+      <a class="card btn" href="learn.html">Open Learn Hub</a>
+      <a class="card btn" href="gallery.html">Open Space Gallery</a>
+      <a class="card btn" href="community.html">Open Community</a>
+      <a class="card btn" href="login.html">Login (Demo)</a>
+      <a class="card btn" href="register.html">Register (Demo)</a>
+    </div>
+    <p><small class="muted">Tip: Install as app from your browser menu for a full-screen experience.</small></p>
+  </section>
+</div>
+
+<footer class="site">
+  <small>© 2025 ARKA — Moon-to-Mars Habitat Lab. Educational prototype. PWA enabled.</small>
+</footer>
+
+<script type="module" src="js/home.js"></script>
+</body>
+</html>

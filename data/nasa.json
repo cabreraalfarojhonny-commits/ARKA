@@ -1,0 +1,44 @@
+{
+  "learn_sections": [
+    {
+      "slug": "habitability",
+      "title": "Habitability Essentials",
+      "summary": "Crew quarters, hygiene/WCS, galley, lighting, and radiation protection are key components for deep-space living.",
+      "bullets": [
+        "Private crew quarters with acoustic isolation",
+        "Radiation protection via materials and layout",
+        "Circadian-friendly lighting and windows/VR views"
+      ]
+    },
+    {
+      "slug": "food",
+      "title": "Food & Nutrition",
+      "summary": "Closed-loop life support benefits from efficient food systems, packaging reduction, and greenhouse concepts.",
+      "bullets": [
+        "Hydroponics and regolith simulant studies",
+        "Shelf-stable foods for transit durations",
+        "Waste-to-resource strategies"
+      ]
+    },
+    {
+      "slug": "energy",
+      "title": "Power & Energy",
+      "summary": "Surface power mixes: solar arrays, fission, and energy storage tuned to the site latitude and dust conditions.",
+      "bullets": [
+        "Kilopower-class reactors for polar nights",
+        "High-efficiency solar with dust mitigation",
+        "Thermal storage and ISRU integration"
+      ]
+    },
+    {
+      "slug": "health",
+      "title": "Health & Exercise",
+      "summary": "Exercise countermeasures, medical kits, telemedicine, and autonomy keep crews healthy.",
+      "bullets": [
+        "Treadmill & resistance devices",
+        "Medical diagnostics and telehealth",
+        "Psychological support and recreation"
+      ]
+    }
+  ]
+}
